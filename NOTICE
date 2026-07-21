@@ -1,0 +1,42 @@
+epistemic-inertial-calibration
+Copyright 2026 Jun Kobayashi
+
+This product includes software developed by Jun Kobayashi
+(Kyushu Institute of Technology), licensed under the Apache License,
+Version 2.0.
+
+--------------------------------------------------------------------------------
+Third-party components (retain their own upstream license terms)
+--------------------------------------------------------------------------------
+
+assets/iiwa/iiwa14_no_collision.urdf
+  Vendored KUKA LBR iiwa14 kinematic/dynamic model (URDF only; the visual meshes
+  referenced by the URDF are not vendored and are not used).
+
+  Obtained from RobotLocomotion/models, path
+  iiwa_description/urdf/iiwa14_no_collision.urdf
+  (https://github.com/RobotLocomotion/models).
+
+  Those files were originally taken from the iiwa_stack project
+  (https://github.com/SalvoVirga/iiwa_stack, SHA 2fa5bd5) and were subsequently
+  modified by Drake (mass/inertia and collision model adjustments).
+
+  The upstream license texts are reproduced verbatim in this directory:
+
+  * assets/iiwa/iiwa_stack.LICENSE.txt
+      Contains two copyright blocks, as shipped upstream:
+        - Copyright (c) 2015, Robert Krug & Todor Stoyanov, AASS Research Center,
+          Orebro University, Sweden. BSD 2-Clause license.
+        - Copyright (c) 2016, Salvatore Virga and Marco Esposito, Technische
+          Universitaet Muenchen. BSD 3-Clause license.
+
+  * assets/iiwa/DRAKE.LICENSE.TXT
+      Drake's license, covering the Drake modifications to the model.
+      Copyright 2012-2025 Robot Locomotion Group @ CSAIL. BSD 3-Clause license.
+
+  * assets/iiwa/DRAKE_iiwa_description.LICENSE.TXT
+      The provenance note shipped upstream as iiwa_description/LICENSE.TXT. It
+      records the iiwa_stack origin and refers to Drake's root LICENSE.TXT, which
+      is vendored here as DRAKE.LICENSE.TXT.
+
+  See assets/iiwa/README.md for the full provenance record.

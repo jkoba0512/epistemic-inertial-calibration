@@ -1,0 +1,45 @@
+{
+  "strat_key": "feasibility_risk_ext_est",
+  "score_key": "calibration_alpha_rmse",
+  "edges": [
+    1.0,
+    3.0
+  ],
+  "strata": [
+    {
+      "range": [
+        null,
+        1.0
+      ],
+      "n": 600,
+      "n_fail": 65,
+      "failure_rate": 0.10833333333333334,
+      "auc": {
+        "auc": 0.9099065420560748,
+        "ci_low": 0.8868443065875883,
+        "ci_high": 0.9324956905329377,
+        "n_boot": 2000
+      }
+    },
+    {
+      "range": [
+        1.0,
+        3.0
+      ],
+      "n": 1191,
+      "n_fail": 1191,
+      "failure_rate": 1.0,
+      "auc": null
+    },
+    {
+      "range": [
+        3.0,
+        null
+      ],
+      "n": 3609,
+      "n_fail": 3609,
+      "failure_rate": 1.0,
+      "auc": null
+    }
+  ]
+}

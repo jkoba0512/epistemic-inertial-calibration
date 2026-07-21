@@ -1,0 +1,12 @@
+{
+  "n_pairs": 150,
+  "outcome_mismatches": 0,
+  "fault_mismatches": 0,
+  "max_abs_delta_base_rmse": 1.0371026279541819e-16,
+  "max_abs_delta_holdout_torque_rmse": 3.2809904524673005e-15,
+  "max_abs_delta_rho_online": 2.6645352591003757e-15,
+  "max_abs_delta_rho_tau": 2.6645352591003757e-15,
+  "max_abs_delta_hold_error": 8.881784197001252e-16,
+  "max_abs_delta_hold_velocity": 7.812760854930545e-16,
+  "max_abs_delta_saturation_fraction": 0.0
+}

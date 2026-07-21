@@ -1,0 +1,45 @@
+{
+  "auc": {
+    "feasibility_risk_ext": {
+      "auc": 1.0,
+      "ci_low": 1.0,
+      "ci_high": 1.0,
+      "n_boot": 2000
+    },
+    "feasibility_risk_ext_est": {
+      "auc": 1.0,
+      "ci_low": 1.0,
+      "ci_high": 1.0,
+      "n_boot": 2000
+    },
+    "feasibility_risk_tau_only": {
+      "auc": 0.89973125,
+      "ci_low": 0.8867961086515553,
+      "ci_high": 0.9122347251647992,
+      "n_boot": 2000
+    },
+    "calibration_alpha_rmse": {
+      "auc": 0.5,
+      "ci_low": 0.46821212504583787,
+      "ci_high": 0.5306776258071114,
+      "n_boot": 2000
+    }
+  },
+  "auc_diff": {
+    "ext_minus_calibration": {
+      "diff": 0.5,
+      "ci_low": 0.4683467439383222,
+      "ci_high": 0.5306177751239652,
+      "n_boot": 2000
+    },
+    "ext_minus_tau_only": {
+      "diff": 0.10026875000000002,
+      "ci_low": 0.08829363159273416,
+      "ci_high": 0.11393884179819257,
+      "n_boot": 2000
+    }
+  },
+  "n_runs": 2400,
+  "n_failures": 2000,
+  "n_velocity_faults": 2000
+}

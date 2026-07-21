@@ -1,0 +1,23 @@
+{
+  "feasibility_risk_ext": {
+    "threshold": 1.0,
+    "missed_failures": 65,
+    "miss_rate": 0.013360739979445015,
+    "false_alarms": 0,
+    "false_alarm_rate": 0.0
+  },
+  "feasibility_risk_ext_est": {
+    "threshold": 1.0,
+    "missed_failures": 65,
+    "miss_rate": 0.013360739979445015,
+    "false_alarms": 0,
+    "false_alarm_rate": 0.0
+  },
+  "feasibility_risk_tau_only": {
+    "threshold": 1.0,
+    "missed_failures": 462,
+    "miss_rate": 0.09496402877697842,
+    "false_alarms": 0,
+    "false_alarm_rate": 0.0
+  }
+}

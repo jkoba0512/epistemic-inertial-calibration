@@ -1,0 +1,74 @@
+# Python / tooling
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.venv/
+
+# An external environment can be used for network-mounted worktrees; see USING_ENV.md.
+
+# Local agent / editor metadata
+.agents/
+.codex/
+.claude/
+.DS_Store
+.env
+.env.*
+
+# Local legacy-development stages and internal interpretation notes.
+scripts/run_s[0-4]_*.py
+scripts/run_s1e_*.py
+src/epistemic_inertial_calibration/s[0-4]_*.py
+src/epistemic_inertial_calibration/s1e_*.py
+src/epistemic_inertial_calibration/idim_observation.py
+src/epistemic_inertial_calibration/policies.py
+src/epistemic_inertial_calibration/power_observation.py
+tests/test_s[0-4]_*.py
+tests/test_s4.py
+tests/test_power_observation.py
+artifacts/s[0-4]_*/
+artifacts/s1e_*/
+conservative_claims.md
+
+# Generated artifacts: keep final S5 records and ignore other regenerable binaries.
+*.npz
+
+# --- Publication policy --------------------------------------------------
+# This repo is intended to be made PUBLIC on paper submission. Keep manuscript,
+# figures, datasets, and heavy experiment outputs OUT of git from the start so
+# nothing paper-related leaks when the repo goes public. Only source code and
+# small reproducible verification artifacts are tracked.
+paper/
+manuscript/
+data/
+datasets/
+outputs/
+figures/
+*.pdf
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+# Large media / data blobs
+*.csv
+*.h5
+*.hdf5
+*.parquet
+*.mp4
+*.mov
+
+# Final S5 reproducibility data are part of the GitHub release archived by Zenodo.
+!artifacts/s5_base_floor/base_projection_ext_horizontal.npz
+!artifacts/s5_base_floor/base_projection_ext_vertical.npz
+!artifacts/s5_layer1_closed_loop/results_by_seed.csv
+!artifacts/s5_layer2_closed_loop/base_projection_ext_4r.npz
+!artifacts/s5_layer2_closed_loop/results_by_seed.csv
+!artifacts/s5_layer3_terminal/results_by_run.csv
+!artifacts/s5_iiwa/base_projection_ext.npz
+!artifacts/s5_iiwa/layer2_results_by_seed.csv
+!artifacts/s5_iiwa/layer3_results_by_run.csv

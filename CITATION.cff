@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the archived software release and the associated paper."
+title: "epistemic-inertial-calibration"
+type: software
+version: 0.1.0
+# doi:   # Zenodo version DOI — fill in after the first public release
+authors:
+  - family-names: Kobayashi
+    given-names: Jun
+    orcid: "https://orcid.org/0009-0002-6318-2617"
+    affiliation: Kyushu Institute of Technology
+repository-code: "https://github.com/jkoba0512/epistemic-inertial-calibration"
+url: "https://github.com/jkoba0512/epistemic-inertial-calibration"
+license: Apache-2.0
+keywords:
+  - robot calibration
+  - inertial parameter identification
+  - base parameters
+  - active model learning
+  - task-compatible exploration
+  - terminal feasibility
+  - robot self-calibration
+preferred-citation:
+  type: article
+  title: "Active Inertial Self-Calibration Beyond Identifiability: Task-Compatible Excitation and Terminal Feasibility"
+  # doi:   # article DOI — fill in after publication
+  authors:
+    - family-names: Kobayashi
+      given-names: Jun
+      orcid: "https://orcid.org/0009-0002-6318-2617"
+      affiliation: Kyushu Institute of Technology
+  journal: "Robotics and Autonomous Systems"
+  year: 2026
+  notes: "Prepared for submission; publication metadata will be updated when available."

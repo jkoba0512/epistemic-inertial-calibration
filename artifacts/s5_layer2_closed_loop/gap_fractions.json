@@ -1,0 +1,10 @@
+{
+  "logdet_cov": {
+    "smooth_random_nullspace": -0.2913005753693951,
+    "fourier_nullspace": 1.100885223706272
+  },
+  "holdout_torque_rmse": {
+    "smooth_random_nullspace": 0.5094589422539122,
+    "fourier_nullspace": 1.1197070436081917
+  }
+}

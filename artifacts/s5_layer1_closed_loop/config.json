@@ -1,0 +1,69 @@
+{
+  "mode": "full",
+  "n_seeds": 50,
+  "policies": [
+    "hold_sequence",
+    "smooth_random",
+    "fourier_envelope",
+    "segment_fim_greedy",
+    "segment_active_ig"
+  ],
+  "traj": {
+    "dt": 0.002,
+    "seg_duration": 0.6,
+    "n_segments": 20,
+    "dwell_fraction": 0.5,
+    "q_range": 3.141592653589793,
+    "vel_limit": 2.0,
+    "acc_limit": 4.0,
+    "tau_limit": 40.0,
+    "torque_margin": 0.8,
+    "target_vel_frac": 0.7,
+    "n_candidates": 8,
+    "max_resample": 20,
+    "ridge": 1e-09,
+    "q_start": [
+      0.2,
+      0.3
+    ],
+    "torque_check_stride": 3,
+    "design_stride": 5
+  },
+  "execution": {
+    "kp": 60.0,
+    "kd": 15.0,
+    "torque_limit": 40.0,
+    "dt": 0.002,
+    "sigma_q": 0.0001,
+    "sigma_qd": 0.001,
+    "sigma_tau": 0.01,
+    "q_fault": 3.6128315516282616,
+    "qd_fault": 2.5,
+    "smooth_window": 11,
+    "obs_decimate": 5,
+    "edge_trim": 15,
+    "qd_min": 0.05
+  },
+  "settings": {
+    "prior_std": 0.15,
+    "param_error": 0.2,
+    "friction_error": 0.5,
+    "holdout_n": 2000,
+    "holdout_seed": 9999,
+    "valid_design_seed": 7777
+  },
+  "metric_keys": [
+    "logdet_cov",
+    "trace_cov",
+    "alpha_rmse",
+    "holdout_torque_rmse",
+    "validation_torque_rmse",
+    "sigma_eff",
+    "tracking_rmse",
+    "saturation_fraction",
+    "max_abs_q",
+    "max_abs_qd",
+    "peak_abs_tau"
+  ],
+  "generated_date": "2026-07-19"
+}

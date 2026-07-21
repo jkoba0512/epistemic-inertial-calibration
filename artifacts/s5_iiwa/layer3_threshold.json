@@ -1,0 +1,17 @@
+{
+  "feasibility_risk_ext": {
+    "missed_failures": 0,
+    "miss_rate": 0.0,
+    "false_alarms": 0
+  },
+  "feasibility_risk_ext_est": {
+    "missed_failures": 0,
+    "miss_rate": 0.0,
+    "false_alarms": 0
+  },
+  "feasibility_risk_tau_only": {
+    "missed_failures": 1000,
+    "miss_rate": 0.5,
+    "false_alarms": 0
+  }
+}

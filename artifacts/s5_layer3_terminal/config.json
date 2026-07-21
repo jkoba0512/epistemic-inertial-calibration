@@ -1,0 +1,19 @@
+{
+  "n_seeds": 50,
+  "n_runs": 5400,
+  "n_nullspace_control_runs": 150,
+  "n_boot": 2000,
+  "n_failures": 4865,
+  "n_velocity_faults": 3600,
+  "scores": [
+    "feasibility_risk_ext",
+    "feasibility_risk_ext_est",
+    "feasibility_risk_tau_only",
+    "calibration_alpha_rmse",
+    "holdout_torque_rmse"
+  ],
+  "projection": "base_projection_ext_vertical.npz",
+  "rank": 8,
+  "generated_date": "2026-07-21",
+  "note": "S5 Layer-3: friction plant, velocity-limit faults count as failure; rho = max(rho_tau, rho_vel) on the desired trajectory."
+}

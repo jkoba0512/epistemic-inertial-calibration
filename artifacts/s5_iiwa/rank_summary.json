@@ -1,0 +1,45 @@
+{
+  "rank": 62,
+  "n_params": 91,
+  "stable": true,
+  "thresholds": [
+    1e-10,
+    1e-09,
+    1e-08,
+    1e-07,
+    1e-06,
+    1e-05
+  ],
+  "ranks_by_seed": {
+    "0": [
+      62,
+      62,
+      62,
+      62,
+      62,
+      62
+    ],
+    "1": [
+      62,
+      62,
+      62,
+      62,
+      62,
+      62
+    ],
+    "2": [
+      62,
+      62,
+      62,
+      62,
+      62,
+      62
+    ]
+  },
+  "gap": [
+    4.1323632660356975e-13,
+    9.434332126066815
+  ],
+  "note": "within URDF position/velocity + drake acceleration limits; 91 = 70 rigid + 7 armature + 14 friction",
+  "generated_date": "2026-07-21"
+}

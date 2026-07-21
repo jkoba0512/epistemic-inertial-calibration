@@ -1,0 +1,41 @@
+{
+  "mode": "full",
+  "n_seeds_layer3": 50,
+  "n_seeds_layer2": 20,
+  "policies_layer2": [
+    "free_reference",
+    "no_exploration",
+    "nullspace_fourier"
+  ],
+  "friction": {
+    "fv": [
+      0.5,
+      0.5,
+      0.3,
+      0.3,
+      0.2,
+      0.15,
+      0.1
+    ],
+    "fc": [
+      1.0,
+      1.0,
+      0.7,
+      0.7,
+      0.4,
+      0.3,
+      0.2
+    ],
+    "eps": 0.05
+  },
+  "armature": [
+    0.15,
+    0.15,
+    0.12,
+    0.12,
+    0.1,
+    0.1,
+    0.08
+  ],
+  "generated_date": "2026-07-21"
+}

@@ -1,0 +1,23 @@
+{
+  "upload_type": "software",
+  "title": "epistemic-inertial-calibration: Three Layers of Active Inertial Self-Calibration",
+  "description": "Simulation code and reproducibility artifacts for the manuscript \"Active Inertial Self-Calibration Beyond Identifiability: Task-Compatible Excitation and Terminal Feasibility,\" prepared for submission to Robotics and Autonomous Systems. The final S5 pipeline includes planar 2R/4R base-subspace analysis, executable excitation-policy comparisons, task-compatible null-space excitation, terminal-feasibility diagnostics, and a KUKA LBR iiwa 7-DoF generalization.",
+  "creators": [
+    {
+      "name": "Kobayashi, Jun",
+      "orcid": "0009-0002-6318-2617",
+      "affiliation": "Kyushu Institute of Technology"
+    }
+  ],
+  "license": "Apache-2.0",
+  "access_right": "open",
+  "keywords": [
+    "robot calibration",
+    "inertial parameter identification",
+    "base parameters",
+    "active model learning",
+    "task-compatible exploration",
+    "terminal feasibility",
+    "robot self-calibration"
+  ]
+}
