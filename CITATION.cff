@@ -3,14 +3,14 @@ message: "If you use this software, please cite the archived software release an
 title: "epistemic-inertial-calibration"
 type: software
 version: 0.1.0
-# doi:   # Zenodo version DOI — fill in after the first public release
+doi: "10.5281/zenodo.21469997"
 authors:
   - family-names: Kobayashi
     given-names: Jun
     orcid: "https://orcid.org/0009-0002-6318-2617"
     affiliation: Kyushu Institute of Technology
 repository-code: "https://github.com/jkoba0512/epistemic-inertial-calibration"
-url: "https://github.com/jkoba0512/epistemic-inertial-calibration"
+url: "https://doi.org/10.5281/zenodo.21469997"
 license: Apache-2.0
 keywords:
   - robot calibration

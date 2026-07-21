@@ -1,5 +1,7 @@
 # epistemic-inertial-calibration
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21469996.svg)](https://doi.org/10.5281/zenodo.21469996)
+
 Simulation code and reproducibility artifacts for active inertial
 self-calibration of robot manipulators. The project separates calibration into
 three diagnostic layers:
@@ -117,7 +119,8 @@ tables, and the small base-projection files needed to inspect the archived
 analysis directly. Legacy per-run data, generated figures, and manuscript files
 remain excluded. Zenodo's GitHub integration archives the tagged GitHub release,
 so the software and final research data receive one versioned release DOI. That
-DOI will be recorded in `CITATION.cff` and in the associated article.
+versioned DOI is recorded in `CITATION.cff`; the badge above uses the concept DOI
+and therefore resolves to the latest archived release.
 
 ## License
 
@@ -127,5 +130,6 @@ KUKA LBR iiwa URDF retains its upstream BSD licenses. See `NOTICE` and
 
 ## Citation
 
-Citation metadata are provided in `CITATION.cff`. The software-release DOI and
-article DOI will be added when they become available.
+Citation metadata are provided in `CITATION.cff`. Release `v0.1.0` is archived at
+[Zenodo](https://doi.org/10.5281/zenodo.21469997). The associated article DOI
+will be added when it becomes available.
