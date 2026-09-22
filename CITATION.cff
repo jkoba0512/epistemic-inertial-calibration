@@ -31,4 +31,16 @@ preferred-citation:
       affiliation: Kyushu Institute of Technology
   journal: "Robotics and Autonomous Systems"
   year: 2026
-  notes: "Prepared for submission; publication metadata will be updated when available."
+  notes: "Under review; the preprint is listed under references. Publication metadata will be updated when available."
+references:
+  - type: article
+    title: "Active Inertial Self-Calibration Beyond Identifiability: Task-Compatible Excitation and Terminal Feasibility"
+    doi: "10.2139/ssrn.7507404"
+    url: "https://ssrn.com/abstract=7507404"
+    authors:
+      - family-names: Kobayashi
+        given-names: Jun
+        orcid: "https://orcid.org/0009-0002-6318-2617"
+        affiliation: Kyushu Institute of Technology
+    year: 2026
+    notes: "Preprint of the associated manuscript, posted on SSRN 2026-09-22. Not peer reviewed."

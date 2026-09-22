@@ -131,5 +131,8 @@ KUKA LBR iiwa URDF retains its upstream BSD licenses. See `NOTICE` and
 ## Citation
 
 Citation metadata are provided in `CITATION.cff`. Release `v0.1.0` is archived at
-[Zenodo](https://doi.org/10.5281/zenodo.21469997). The associated article DOI
-will be added when it becomes available.
+[Zenodo](https://doi.org/10.5281/zenodo.21469997). The associated manuscript is
+available as a preprint on SSRN
+([10.2139/ssrn.7507404](https://doi.org/10.2139/ssrn.7507404)); that version has
+not been peer reviewed. The article DOI will be added when it becomes
+available.
